@@ -1,0 +1,172 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,body{
+    /*display: flex;*/
+	justify-content: center;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+}
+
+h1{
+	font-size: 2.441rem;
+	text-transform: capitalize;
+}
+
+a{
+	text-decoration: none;
+	color: #4d4d4d;
+}
+
+hr{
+	background: #fda94f;
+	height: 20px;
+	border: none;
+}
+
+.contenedor1{
+	margin: auto;
+	max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.parte3 {
+	padding: 80px 0;
+}
+
+.parte1 {
+	padding: 30px 0;
+}
+
+.clr{
+	clear: both;
+}
+
+#barraInicio .logo{
+	font-size: 2.3rem;
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+#barraInicio h1 a{
+	color: #fda94f;
+}
+
+#barraInicio ul{
+	float: right;
+	list-style: none;
+}
+
+#barraInicio ul li{
+	float: left;
+}
+
+#barraInicio ul li a{
+	display: block;
+	padding: 20px;
+	text-align: center;
+}
+
+#barraInicio ul li a.ini,
+#barraInicio ul li a:hover{
+	color: #fda94f;
+}
+
+#registro{
+    color: #4d4d4d;
+}
+
+#registro h1{
+	padding-bottom: 40px;
+	font-weight: lighter;
+	text-align: center;
+}
+
+#registro input{
+	display: block;
+	width: 400px;
+	height: 50px;
+	margin-bottom: 10px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid black;
+	background:transparent ;
+	margin-left: 320px;
+}
+
+#registro label{
+   display: block;
+	width: 400px;
+	height: 10px;
+	padding-top:  5px;
+	margin-bottom: 5px;
+	border: none;
+	outline: none;
+	
+
+	background:transparent ;
+	margin-left: 320px; 
+}
+
+#registro button{
+	height: 40px;
+	width: 110px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 320px;
+}
+
+#registro input:hover{
+	transition: all 100ms ease-in;
+	border-bottom-color: lightcoral;
+	font-size: 20px;
+}
+
+#final{
+    text-align: center;
+    color: #4d4d4d;
+}
+
+@media(max-width: 760px){
+	.parte3 {
+		padding: 30px 0;
+	}
+	
+    .parte1 {
+    	padding: 10px 0;
+    }
+
+    #barraInicio{
+    	text-align: center;
+    }
+
+    #barraInicio .logo{
+	    float: none;
+	    padding-bottom: 10px;
+    }
+
+    #barraInicio ul{
+	    float: none;
+    }
+
+    #barraInicio ul li{
+	    float: none;
+    }
+
+    #barraInicio ul li a{
+	    padding: 10px;
+    }
+
+    #registro input{
+	margin-left: auto;
+    }
+
+    #registro button{
+    margin-left: 170px;
+    }
+}

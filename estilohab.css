@@ -1,0 +1,165 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html,body{
+    /*display: flex;*/
+	justify-content: center;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+}
+
+h1{
+	font-size: 2.441rem;
+	text-transform: capitalize;
+	color: #4d4d4d;
+}
+
+h3{
+	font-size: 1.563rem;
+	text-transform: capitalize;
+}
+
+a{
+	text-decoration: none;
+	color: #4d4d4d;
+}
+
+hr{
+	background: #fda94f;
+	height: 20px;
+	border: none;
+}
+
+.contenedor1{
+	margin: auto;
+	max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.content{
+	display: flex;
+	margin: auto;
+	background: #C9C9C9FF;
+	width: 800px;
+	height: 220px;
+	border-radius: 10px;
+	margin-top: 30px;
+	box-shadow: 0px 0px 10px;
+	overflow-wrap: normal;
+
+}
+
+.parte3 {
+	padding: 80px 0;
+}
+
+.parte1 {
+	padding: 30px 0;
+}
+
+.clr{
+	clear: both;
+}
+
+#barraInicio .logo{
+	font-size: 2.3rem;
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+#barraInicio h1 a{
+	color: #fda94f;
+}
+
+#barraInicio ul{
+	float: right;
+	list-style: none;
+}
+
+#barraInicio ul li{
+	float: left;
+}
+
+#barraInicio ul li a{
+	display: block;
+	padding: 20px;
+	text-align: center;
+}
+
+#barraInicio ul li a.ini,
+#barraInicio ul li a:hover{
+	color: #fda94f;
+}
+
+button{
+	display: flex;
+    margin-top: 180px;
+	height: 40px;
+	width: 351px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	background-color: #fda94f;
+justify-content: center;
+padding-top: 10px;
+
+	
+	
+}
+.content,button:hover{
+	cursor: pointer;
+}
+
+.textos{
+	margin-left: 10px;
+	border-radius: 10px;
+	color: #4d4d4d;
+
+}
+.orden{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#final{
+    text-align: center;
+    color: #4d4d4d;
+}
+
+@media(max-width: 760px){
+	.parte3 {
+		padding: 30px 0;
+	}
+	
+    .parte1 {
+    	padding: 10px 0;
+    }
+
+    #barraInicio{
+    	text-align: center;
+    }
+
+    #barraInicio .logo{
+	    float: none;
+	    padding-bottom: 10px;
+    }
+
+    #barraInicio ul{
+	    float: none;
+    }
+
+    #barraInicio ul li{
+	    float: none;
+    }
+
+    #barraInicio ul li a{
+	    padding: 10px;
+    }
+
+
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="estiloreserva.css">
+	<title>Hotel Barceló | Reservar Cliente</title>
+	<meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="reservar.js"></script>
+</head>
+<body>
+	<header>
+		<div id="barraInicio" class="parte3">
+			<div class="contenedor1">
+				<h1 class="logo"><a href="inicio.html">Hotel Barceló</a></h1>
+				<ul>
+					<li><a href="inicio.html" class="ini">Inicio</a></li>
+					<li><a href="">Sobre Nosotros</a></li>
+					<li><a href="contacto.html">Contáctanos</a></li>
+					<li><a href="registro.html">Registrarse</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<section id="registro" class="parte3">
+	<div class="contenedor1">
+    <form id="form" method="POST">
+	<h1>Reservar</h1>
+	<input type="text" id="Inombre" placeholder="Nombre">
+		<input type="text" id="Iapellidos" placeholder="Apellidos">
+		    <input type="text" id="Itelefono" placeholder="Teléfono">	
+			    <input type="email" id="Iemail" placeholder="Correo">
+						<label for="FI"><h5>Fecha Ingreso :</h5></label>
+						<input type="text" id="Ifecha_ingreso" placeholder="">
+						<label for="FS"><h5>Fecha Salida :</h5></label>
+						<input type="text" id="Ifecha_salida" placeholder="">	
+						<input type="button" value="Reservar" onclick="reservar()">
+    </form>
+    </div>
+    </section>
+    <div class="clr"></div>
+	<footer id="final" class="parte1">
+		<p>&copy; 2021 Hotel Barceló</p>
+	</footer>
+</body>
+</html>

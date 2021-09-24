@@ -1,0 +1,206 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html,body{
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+}
+
+h1{
+	font-size: 2.441rem;
+	text-transform: capitalize;
+}
+
+h4{
+	font-size: 1.25rem;
+	text-transform: capitalize;
+}
+
+p{
+	font-size: 1rem;
+}
+
+a{
+	text-decoration: none;
+	color: #4d4d4d;
+}
+
+hr{
+	background: #fda94f;
+	height: 20px;
+	border: none;
+}
+
+.contenedor1{
+	margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.luz {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.oscura {
+    background: #4d4d4d;
+}
+
+.oscura:hover {
+    background: #737373;
+}
+
+.parte3 {
+	padding: 80px 0;
+}
+
+.parte2 {
+	padding: 50px 0;
+}
+
+.parte1 {
+	padding: 30px 0;
+}
+
+.box{
+	float: left;
+	width: 33.3%;
+	text-align: center;
+	padding: 50px;
+	height: 250px;
+}
+
+.box h4{
+	padding-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.clr{
+	clear: both;
+}
+
+#barraInicio .logo{
+	font-size: 2.3rem;
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+#barraInicio h1 a{
+	color: #fda94f;
+}
+
+#barraInicio ul{
+	float: right;
+	list-style: none;
+}
+
+#barraInicio ul li{
+	float: left;
+}
+
+#barraInicio ul li a{
+	display: block;
+	padding: 20px;
+	text-align: center;
+}
+
+#barraInicio ul li a.ini,
+#barraInicio ul li a:hover{
+	color: #fda94f;
+}
+
+#contacto{
+    color: #4d4d4d;
+}
+
+#contacto h1{
+	padding-bottom: 40px;
+	font-weight: lighter;
+}
+
+#contacto label{
+	display: block;
+	margin-bottom: 10px;
+}
+
+#contacto input,
+#contacto textarea{
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ddd;
+}
+
+#contactosDirectos .ubicacion{
+	background: url('images/contacto1.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#contactosDirectos .telefono{
+	background: url('images/contacto2.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#contactosDirectos .correo{
+	background: url('images/contacto3.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#final{
+    text-align: center;
+    color: #4d4d4d;
+}
+
+@media(max-width: 760px){
+	.parte3 {
+		padding: 30px 0;
+	}
+    .parte2 {
+    	padding: 20px 0;
+    }
+    .parte1 {
+    	padding: 10px 0;
+    }
+
+    .box {
+        float: none;
+        width: 100%;
+    }
+
+    #barraInicio{
+    	text-align: center;
+    }
+
+    #barraInicio .logo{
+	    float: none;
+	    padding-bottom: 10px;
+    }
+
+    #barraInicio ul{
+	    float: none;
+    }
+
+    #barraInicio ul li{
+	    float: none;
+    }
+
+    #barraInicio ul li a{
+	    padding: 10px;
+    }
+
+}
